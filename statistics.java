@@ -31,7 +31,7 @@ class Statistics
     {
       sum=sum+x;
     }
-    return sum/data.length;
+    return (double)sum/(double)(data.length);
   }
   double median(int data[])
   {
